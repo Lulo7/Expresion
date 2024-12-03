@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/goocat2.jpg" alt="Logo GooCat's">
+        <nav>
+            <a href="index.html" >Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html" class="activo">Contacto</a>
+        </nav>
+    </header>
+    <div id="burger">
+        <div class="barra top"></div>
+        <div class="barra mid"></div>
+        <div class="barra down"></div>
+    </div>
+    <div class="menu primera">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <hr>
+            <a href="productos.html">Productos</a>
+            <hr>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="copyright">&copy; GooCat's</p>
+    </div>
+    <div class="fila contacto">
+        <div class="col-100 flex-column-center">
+            <p>Te interesa algun producto que no tengamos en catalogo?</p>
+            <form class="contacto">
+                <div class="fila">
+                    <input class="usuario" type="text" placeholder="Nombre y apellidos">
+                </div>
+                <div class="fila">
+                    <input class="email" type="email" placeholder="Correo electronico">
+                </div>
+                <div class="fila flex-end">
+                    <button type="submit">Enviar</button>
+                </div>
+                <div class="fila flex-center">
+                    <input type="checkbox" id="condiciones">
+                    <label for="condiciones">
+                        Acepto las condiciones legales.
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="fila">
+        <span id="legal">&nbsp;</span>
+        <div class="col-100">
+            <h1 class="m-b">Aviso legal</h1>
+            <p>La información contenida en este sitio web es proporcionada por GooCat's. Al acceder y usar este sitio, aceptas cumplir con los siguientes términos y condiciones:</p>
+            <ul class="col-100">
+                <li>Propiedad intelectual: Todos los contenidos de este sitio web, incluidos textos, imágenes, logotipos y diseños, son propiedad de GooCat's o de terceros que han autorizado su uso. Está prohibida su reproducción, distribución o modificación sin el consentimiento previo y por escrito.</li>
+                <li>Responsabilidad: Aunque nos esforzamos por garantizar que la información sea precisa y actualizada, no garantizamos la exactitud, integridad o idoneidad de los contenidos. No nos hacemos responsables por posibles errores o daños derivados del uso de esta información.</li>
+                <li>Enlaces externos: Este sitio puede incluir enlaces a otros sitios web. GooCat's no se hace responsable por el contenido o las prácticas de privacidad de dichos sitios.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="fila">
+        <span id="cookies">&nbsp;</span>
+        <div class="col-100">
+            <h1 class="m-b">Política de cookies</h1>
+            <p>En GooCat's, utilizamos cookies para mejorar tu experiencia en nuestro sitio web. Al continuar navegando, aceptas el uso de cookies bajo los términos descritos a continuación:</p>
+            <ul class="col-100">
+                <li>¿Qué son las cookies?
+                    Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo al visitar nuestro sitio. Nos permiten recordar tus preferencias y mejorar nuestros servicios.</li>
+                <li>¿Qué tipos de cookies utilizamos?
+
+                    Cookies esenciales: Necesarias para el funcionamiento básico del sitio.
+                    Cookies analíticas: Nos ayudan a entender cómo interactúan los usuarios con nuestra web para mejorarla continuamente.
+                    Cookies de personalización: Permiten recordar tus preferencias (idioma, región, etc.).</li>    
+                <li>¿Cómo gestionar las cookies?
+                    Puedes configurar tu navegador para bloquear o eliminar las cookies. Sin embargo, algunas funciones de nuestro sitio podrían no estar disponibles.</li>
+            </ul>
+        </div>
+    </div>
+    <footer class="fila">
+        <div class="col-33">
+            <p>GooCat's</p>
+            <p class="flex-start">
+                <img class="m-r-small" src="img/map.svg" alt="map">
+                Tinjaca Boyacá, San Mateo
+            </p>
+            <p>150003 Tunja</p>
+            <p class="flex-start">
+                <img class="m-r-small" src="img/phone.svg" alt="phone">
+                +57 310 204 2309
+            </p>
+            <p class="flex-start">
+                <img class="m-r-small" src="img/mail.svg" alt="email">
+                Sanmateo@gmail.com
+            </p>
+        </div>
+        <div class="col-33">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.425024996843!2d-73.6495836819124!3d5.564752276443912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e41d3d3de7ec051%3A0xa9554c3d452956d9!2sFinca%20Tur%C3%ADstica%20Villa%20del%20Camino!5e0!3m2!1ses!2sco!4v1703975404420!5m2!1ses!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-33">
+            <div class="flex-around m-t">
+                <a href="#legal">Aviso legal</a>
+                <a href="#cookies">Política de cookies</a>
+            </div>
+            <p class="copyright m-t">&copy; GooCat's All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
